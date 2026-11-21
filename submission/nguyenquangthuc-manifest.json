@@ -3,24 +3,24 @@
   "format": "CVAT for images 1.1",
   "guideline": "Road v1.0",
   "name": "nguyenquangthuc",
-  "revision": 2,
-  "created_at": "2026-11-21T00:54:51+00:00",
+  "revision": 3,
+  "created_at": "2026-11-21T08:14:11+00:00",
   "files": [
     {
       "file": "nguyenquangthuc-front.zip",
-      "bytes": 9562,
-      "sha256": "4538c6543833f51a51967d05fe23973eeb9cad9373b49e2147b62c5e91788fa7",
+      "bytes": 9698,
+      "sha256": "aad5fd8d8d23d44cd4ba23846726afeb71cfb215f8532aaef413089c3d2b08ec",
       "contains_images": false,
       "images": 16,
       "images_unlabelled": 0,
       "images_all_tags": 16,
       "shapes_by_label": {
-        "crosswalk": 5,
-        "drivable": 33,
-        "lane": 37,
-        "road_curb": 5,
+        "crosswalk": 7,
+        "drivable": 34,
+        "lane": 33,
+        "road_curb": 7,
         "traffic_light": 53,
-        "traffic_sign": 50
+        "traffic_sign": 52
       }
     },
     {
@@ -42,7 +42,7 @@
     }
   ],
   "lint": {
-    "nặng": 0,
+    "nặng": 4,
     "chính": 0,
     "nhẹ": 1
   },

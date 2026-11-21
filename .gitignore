@@ -6,4 +6,7 @@ coach_gt/
 submissions/
 out/
 *.zip
+# Local peer-review files (do not commit another student's submission)
+hthuong-*.zip
+hthuong-manifest.json
 .env

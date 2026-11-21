@@ -3,9 +3,9 @@
 Họ tên: Nguyễn Quang Thức  
 Mã học viên: 2A202603116  
 Phiên bản CVAT (Help → About): Server/UI 2.82.0  
-Guideline: Road v1.0    Lần nộp (`revision` trong manifest): 2  
+Guideline: Road v1.0    Lần nộp (`revision` trong manifest): 3  
 Thời điểm export: 21/11/2026  
-Số lần nộp lại sau Rework: 0
+Số lần nộp lại sau Rework: 2
 
 ## 1. Kiểm project
 
@@ -22,8 +22,8 @@ Cách đặt tag: mỗi ảnh có một tag camera, timeofday, weather và sourc
 
 | Task | Ảnh | lane | road_curb | crosswalk | drivable | traffic_light | traffic_sign |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| front | 12 | 29 | 4 | 3 | 24 | 40 | 36 |
-| front-extra (đã gộp vào front.zip) | 4 | 7 | 1 | 2 | 9 | 13 | 14 |
+| front | 12 | 24 | 6 | 5 | 25 | 40 | 38 |
+| front-extra (đã gộp vào front.zip) | 4 | 9 | 1 | 2 | 9 | 13 | 14 |
 | fisheye | 8 | 7 | 4 | 7 | 10 | 7 | 4 |
 | fisheye-extra (đã gộp vào fisheye.zip) | 4 | 0 | 2 | 4 | 4 | 0 | 0 |
 
@@ -63,7 +63,7 @@ Quyết định nhận được: [CẦN ĐIỀN]
 | `nguyenquangthuc-front.zip` | Có | 16 | Có |
 | `nguyenquangthuc-fisheye.zip` | Có | 12 | Có |
 
-Lint sau khi gộp: 28 ảnh, 0 lỗi mức nặng, 0 lỗi chính và 1 cảnh báo nhẹ (A03 traffic light dưới 8 px; không bắt buộc).
+Lint sau khi gộp: 28 ảnh, 4 cảnh báo mức nặng QC1-02 (A05 thiếu L1/R1, A06 thiếu R1, A07 thiếu L1) và 1 cảnh báo nhẹ ở A03 (traffic light dưới 8 px; không bắt buộc). Các cảnh báo QC1-02 cần xác nhận trực quan với ảnh/coach trước khi kết luận.
 
 ## 6. Ảnh chụp màn hình
 
