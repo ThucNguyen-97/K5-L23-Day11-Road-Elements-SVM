@@ -3,13 +3,13 @@
   "format": "CVAT for images 1.1",
   "guideline": "Road v1.0",
   "name": "nguyenquangthuc",
-  "revision": 4,
-  "created_at": "2026-11-21T09:33:59+00:00",
+  "revision": 5,
+  "created_at": "2026-11-22T10:10:31+00:00",
   "files": [
     {
       "file": "nguyenquangthuc-front.zip",
-      "bytes": 9819,
-      "sha256": "95a44d00bb221203faa015850b508ebf0232ac89e9a8576033169d56e89e6ac3",
+      "bytes": 9845,
+      "sha256": "d25bc3c8ebd6a0d8ee5e0ca3a3f67568212e3d5dc7f4609ccca437e812662c29",
       "contains_images": false,
       "images": 16,
       "images_unlabelled": 0,
@@ -25,8 +25,8 @@
     },
     {
       "file": "nguyenquangthuc-fisheye.zip",
-      "bytes": 5506,
-      "sha256": "a29a4bd70dafac4bb9da300e7df601789c1cedc6738194b5f8dec6a215fa2eef",
+      "bytes": 5820,
+      "sha256": "55a83b4f558b264167600c25149f94c6e1a52dc46e1301fd8dc3728254761529",
       "contains_images": false,
       "images": 12,
       "images_unlabelled": 0,
@@ -34,7 +34,7 @@
       "shapes_by_label": {
         "crosswalk": 11,
         "drivable": 14,
-        "lane": 7,
+        "lane": 14,
         "road_curb": 6,
         "traffic_light": 7,
         "traffic_sign": 4
